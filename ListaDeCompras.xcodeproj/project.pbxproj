@@ -12,6 +12,9 @@
 		DA2D9EFD22B1AD4700072762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2D9EFB22B1AD4700072762 /* Main.storyboard */; };
 		DA2D9EFF22B1AD4800072762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2D9EFE22B1AD4800072762 /* Assets.xcassets */; };
 		DA2D9F0222B1AD4800072762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2D9F0022B1AD4800072762 /* LaunchScreen.storyboard */; };
+		DA2D9F0A22B2A26600072762 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D9F0922B2A26600072762 /* Item.swift */; };
+		DA2D9F0D22B2A71200072762 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D9F0B22B2A71200072762 /* TableViewCell.swift */; };
+		DA2D9F0E22B2A71200072762 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2D9F0C22B2A71200072762 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DA2D9EFE22B1AD4800072762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2D9F0122B1AD4800072762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2D9F0322B1AD4800072762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2D9F0922B2A26600072762 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DA2D9F0B22B2A71200072762 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DA2D9F0C22B2A71200072762 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				DA2D9EF722B1AD4700072762 /* AppDelegate.swift */,
 				DA2D9EF922B1AD4700072762 /* TodoListViewController.swift */,
+				DA2D9F0B22B2A71200072762 /* TableViewCell.swift */,
+				DA2D9F0C22B2A71200072762 /* TableViewCell.xib */,
 				DA2D9EFB22B1AD4700072762 /* Main.storyboard */,
+				DA2D9F0922B2A26600072762 /* Item.swift */,
 				DA2D9EFE22B1AD4800072762 /* Assets.xcassets */,
 				DA2D9F0022B1AD4800072762 /* LaunchScreen.storyboard */,
 				DA2D9F0322B1AD4800072762 /* Info.plist */,
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2D9F0222B1AD4800072762 /* LaunchScreen.storyboard in Resources */,
+				DA2D9F0E22B2A71200072762 /* TableViewCell.xib in Resources */,
 				DA2D9EFF22B1AD4800072762 /* Assets.xcassets in Resources */,
 				DA2D9EFD22B1AD4700072762 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2D9EFA22B1AD4700072762 /* TodoListViewController.swift in Sources */,
+				DA2D9F0D22B2A71200072762 /* TableViewCell.swift in Sources */,
+				DA2D9F0A22B2A26600072762 /* Item.swift in Sources */,
 				DA2D9EF822B1AD4700072762 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
